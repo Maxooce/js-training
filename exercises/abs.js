@@ -11,6 +11,20 @@
 
 // Your code :
 
+function difference(a, b) {
+    calcul = a - b;
+    if (calcul < 0 ) {
+        return calcFinal = calcul * -1
+      }
+
+      else {
+          calcul = a - b;
+          return calcFinal = calcul
+      }
+}
+
+console.log (difference(3,5))
+
 //* Begin of tests
 const assert = require('assert')
 
